@@ -145,6 +145,8 @@ void DrawSence::mouseMoveEvent(QGraphicsSceneMouseEvent* mouseEvent)
 				m_polygonItem->setPolygon(points);
 			}
 			break;
+		case Polygon:
+			break;
 		case Line:
 			if (m_bMouseRelease)
 			{
