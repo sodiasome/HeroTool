@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HeroToolClass</class>
+ <widget class="QMainWindow" name="HeroToolClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>523</width>
+    <height>359</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HeroTool</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>80</y>
+      <width>171</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTabBar::tab::selected{background-color:rgb(85,158,251);}
+QTabBar::tab::!selected{background-color:white;}
+QTabBar::tab::hover{background-color:rgb(255, 255, 127);}
+QTabWidget::pane{
+    border-width:1px;
+    border-top-left-radius:15px;
+    border-color:rgb(255,255,255); 
+    border-style: inset;
+    background-color: white;
+	border:0px solid white;
+	border-right-width:10px;
+	border-left-width:10px;
+}</string>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <property name="tabsClosable">
+     <bool>true</bool>
+    </property>
+    <property name="movable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="HeroTool.qrc"/>
+ </resources>
+ <connections/>
+</ui>

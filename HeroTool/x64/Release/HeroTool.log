@@ -1,0 +1,69 @@
+﻿  Reading Qt configuration (D:/Qt/5.15.2/msvc2019_64/bin/qmake)
+  uic BigData.ui
+  uic BigDataToolWidget.ui
+  uic DrawToolWidget.ui
+  uic DrawView.ui
+  uic HeroTool.ui
+  uic MediaHome.ui
+  uic MediaToolWidget.ui
+  uic NoteDownWindow.ui
+  uic NotePad.ui
+  uic NoteToolWidget.ui
+  uic Plan.ui
+  uic PlanToolWidget.ui
+  uic TabToolStackWidget.ui
+  uic TopBar.ui
+  rcc HeroTool.qrc
+  moc HeroTool.h
+  moc TopBar.h
+  moc PlaneDraw.h
+  moc NoteDownWindow.h
+  moc TreeViewModel.h
+  moc TabToolStackWidget.h
+  moc TextItem.h
+  moc DrawSence.h
+  moc NotePad.h
+  moc Plan.h
+  moc BigData.h
+  moc MediaHome.h
+  moc MediaToolWidget.h
+  moc DrawToolWidget.h
+  moc NoteToolWidget.h
+  moc DrawView.h
+  moc NoteCodeEditor.h
+  moc NoteEditer.h
+  moc BigDataToolWidget.h
+  moc PlanToolWidget.h
+  moc ListViewModel.h
+  moc BaseDelegate.h
+  BaseDelegate.cpp
+  BigData.cpp
+  BigDataToolWidget.cpp
+  DrawSence.cpp
+  DrawToolWidget.cpp
+  DrawView.cpp
+  FileManage.cpp
+  ListViewModel.cpp
+  MediaHome.cpp
+  MediaToolWidget.cpp
+  NoteCodeEditor.cpp
+  NoteDownWindow.cpp
+  NoteEditer.cpp
+  NotePad.cpp
+  NoteToolWidget.cpp
+  Plan.cpp
+  PlaneDraw.cpp
+  PlanToolWidget.cpp
+  TabToolStackWidget.cpp
+  TextItem.cpp
+C:\Users\sodia\Desktop\HeroTool\HeroTool\PlaneDraw.h(2,10): fatal error C1083: Cannot open include file: 'QChartView': No such file or directory (compiling source file PlaneDraw.cpp)
+  TopBar.cpp
+C:\Users\sodia\Desktop\HeroTool\HeroTool\BigData.h(4,10): fatal error C1083: Cannot open include file: 'QtCharts': No such file or directory (compiling source file BigData.cpp)
+  TreeItem.cpp
+C:\Users\sodia\Desktop\HeroTool\HeroTool\x64\Release\uic\ui_Plan.h(22,10): fatal error C1083: Cannot open include file: 'qwebengineview.h': No such file or directory (compiling source file Plan.cpp)
+  TreeViewModel.cpp
+  HeroTool.cpp
+C:\Users\sodia\Desktop\HeroTool\HeroTool\MediaHome.cpp(2,10): fatal error C1083: Cannot open include file: 'QQuickWidget': No such file or directory
+  main.cpp
+C:\Users\sodia\Desktop\HeroTool\HeroTool\x64\Release\uic\ui_Plan.h(22,10): fatal error C1083: Cannot open include file: 'qwebengineview.h': No such file or directory (compiling source file main.cpp)
+C:\Users\sodia\Desktop\HeroTool\HeroTool\x64\Release\uic\ui_Plan.h(22,10): fatal error C1083: Cannot open include file: 'qwebengineview.h': No such file or directory (compiling source file HeroTool.cpp)

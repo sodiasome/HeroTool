@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/HeroTool">
+        <file>sources/Frame/logo.png</file>
+        <file>sources/Frame/logo.ico</file>
+        <file>Qml/MediaHome.qml</file>
+        <file>sources/draw/ellipse.png</file>
+        <file>sources/draw/line.png</file>
+        <file>sources/draw/rect.png</file>
+        <file>sources/draw/triangle.png</file>
+        <file>sources/draw/erase.png</file>
+        <file>sources/draw/pen.png</file>
+        <file>sources/draw/polygon.png</file>
+        <file>sources/draw/text.png</file>
+        <file>sources/draw/delete.png</file>
+        <file>sources/draw/lock.png</file>
+        <file>sources/notepad/blod.png</file>
+        <file>sources/notepad/italic.png</file>
+        <file>sources/notepad/unline.png</file>
+        <file>sources/notepad/center.png</file>
+        <file>sources/notepad/left.png</file>
+        <file>sources/notepad/right.png</file>
+        <file>sources/notepad/timer.png</file>
+        <file>sources/notepad/picture.png</file>
+        <file>sources/bigdata/strong.png</file>
+        <file>Qml/bigData.qml</file>
+        <file>sources/bigdata/mapDemo.html</file>
+        <file>sources/bigdata/no.png</file>
+        <file>sources/bigdata/yes.png</file>
+    </qresource>
+</RCC>

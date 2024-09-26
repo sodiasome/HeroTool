@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Frame">
+      <UniqueIdentifier>{a5e53bab-5f19-4c8b-b5f0-45f85f9dcccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Frame">
+      <UniqueIdentifier>{4ca9f155-1cd7-47a0-afe9-cb2f2dc264d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Frame">
+      <UniqueIdentifier>{f30ee168-247a-4c86-bc4e-2f1f9c74fc03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Draw">
+      <UniqueIdentifier>{502ff232-a0d6-417c-8e23-35648eac8c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Draw">
+      <UniqueIdentifier>{329d0704-4e76-44e2-b789-bd97684199c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Notepad">
+      <UniqueIdentifier>{8d3f571c-461c-4613-9e2d-fc9428ce54a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Notepad">
+      <UniqueIdentifier>{94ff25dd-6100-4d5b-8d48-c0ea41d694ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Notepad">
+      <UniqueIdentifier>{70f0bcae-6eae-4708-b4e3-bda14394c517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Plan">
+      <UniqueIdentifier>{b5105a28-edc4-4f35-b2bb-3f135d48d8a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\plan">
+      <UniqueIdentifier>{29cc34ec-2e11-4ae9-a469-d3115487d460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\plan">
+      <UniqueIdentifier>{5c09a722-8c48-4587-a3e0-6f46ab6e8f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\BigData">
+      <UniqueIdentifier>{9fbb05c9-833f-4d59-b0ef-d1aab9238b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BigData">
+      <UniqueIdentifier>{2b5ae819-2a85-4a84-b9de-4822b7015739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Media">
+      <UniqueIdentifier>{0e26c6a3-a76f-4ea3-a159-bdbf21eae1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Media">
+      <UniqueIdentifier>{73bd1fe0-2248-403b-83c1-9d00b96852e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Media">
+      <UniqueIdentifier>{307b7fcc-91db-42f0-9a13-f591f34fc278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qml">
+      <UniqueIdentifier>{d0c24862-e19c-46fa-9a42-d6869a9c4554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Draw">
+      <UniqueIdentifier>{95cea0be-2b2f-4cfd-b41d-40a034466a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qml\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="html">
+      <UniqueIdentifier>{7024a461-6926-48f8-93da-7350fde6612d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Notepad\BigData">
+      <UniqueIdentifier>{ee7042ec-53f3-4bfc-9df8-416236d49fda}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="HeroTool.qrc">
+      <Filter>Qml\Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TopBar.cpp">
+      <Filter>Source Files\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawSence.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroTool.cpp">
+      <Filter>Source Files\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="TextItem.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="NotePad.cpp">
+      <Filter>Source Files\Notepad</Filter>
+    </ClCompile>
+    <ClCompile Include="Plan.cpp">
+      <Filter>Source Files\plan</Filter>
+    </ClCompile>
+    <ClCompile Include="BigData.cpp">
+      <Filter>Source Files\BigData</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaHome.cpp">
+      <Filter>Source Files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaToolWidget.cpp">
+      <Filter>Source Files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawToolWidget.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="TabToolStackWidget.cpp">
+      <Filter>Source Files\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteToolWidget.cpp">
+      <Filter>Source Files\Notepad</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawView.cpp">
+      <Filter>Source Files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteCodeEditor.cpp">
+      <Filter>Source Files\Notepad</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteEditer.cpp">
+      <Filter>Source Files\Notepad</Filter>
+    </ClCompile>
+    <ClCompile Include="BigDataToolWidget.cpp">
+      <Filter>Source Files\BigData</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanToolWidget.cpp">
+      <Filter>Source Files\plan</Filter>
+    </ClCompile>
+    <ClCompile Include="ListViewModel.cpp">
+      <Filter>Source Files\BigData</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDelegate.cpp">
+      <Filter>Source Files\BigData</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeViewModel.cpp">
+      <Filter>Source Files\BigData</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeItem.cpp">
+      <Filter>Source Files\BigData</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManage.cpp">
+      <Filter>Source Files\BigData</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneDraw.cpp">
+      <Filter>Source Files\BigData</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteDownWindow.cpp">
+      <Filter>Source Files\Notepad</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="TopBar.h">
+      <Filter>Header Files\Frame</Filter>
+    </QtMoc>
+    <QtMoc Include="DrawSence.h">
+      <Filter>Header Files\Draw</Filter>
+    </QtMoc>
+    <QtMoc Include="HeroTool.h">
+      <Filter>Header Files\Frame</Filter>
+    </QtMoc>
+    <QtMoc Include="TextItem.h">
+      <Filter>Header Files\Draw</Filter>
+    </QtMoc>
+    <QtMoc Include="NotePad.h">
+      <Filter>Header Files\Notepad</Filter>
+    </QtMoc>
+    <QtMoc Include="Plan.h">
+      <Filter>Header Files\plan</Filter>
+    </QtMoc>
+    <QtMoc Include="BigData.h">
+      <Filter>Form Files\Notepad\BigData</Filter>
+    </QtMoc>
+    <QtMoc Include="MediaHome.h">
+      <Filter>Header Files\Media</Filter>
+    </QtMoc>
+    <QtMoc Include="MediaToolWidget.h">
+      <Filter>Header Files\Media</Filter>
+    </QtMoc>
+    <QtMoc Include="DrawToolWidget.h">
+      <Filter>Header Files\Draw</Filter>
+    </QtMoc>
+    <QtMoc Include="TabToolStackWidget.h">
+      <Filter>Header Files\Frame</Filter>
+    </QtMoc>
+    <QtMoc Include="NoteToolWidget.h">
+      <Filter>Header Files\Notepad</Filter>
+    </QtMoc>
+    <QtMoc Include="DrawView.h">
+      <Filter>Header Files\Draw</Filter>
+    </QtMoc>
+    <QtMoc Include="NoteCodeEditor.h">
+      <Filter>Header Files\Notepad</Filter>
+    </QtMoc>
+    <QtMoc Include="NoteEditer.h">
+      <Filter>Header Files\Notepad</Filter>
+    </QtMoc>
+    <QtMoc Include="BigDataToolWidget.h">
+      <Filter>Form Files\Notepad\BigData</Filter>
+    </QtMoc>
+    <QtMoc Include="PlanToolWidget.h">
+      <Filter>Header Files\plan</Filter>
+    </QtMoc>
+    <QtMoc Include="ListViewModel.h">
+      <Filter>Form Files\Notepad\BigData</Filter>
+    </QtMoc>
+    <QtMoc Include="BaseDelegate.h">
+      <Filter>Form Files\Notepad\BigData</Filter>
+    </QtMoc>
+    <QtMoc Include="BigDataToolWidget.h">
+      <Filter>Header Files\BigData</Filter>
+    </QtMoc>
+    <QtMoc Include="TreeViewModel.h">
+      <Filter>Form Files\Notepad\BigData</Filter>
+    </QtMoc>
+    <QtMoc Include="PlaneDraw.h">
+      <Filter>Form Files\Notepad\BigData</Filter>
+    </QtMoc>
+    <QtMoc Include="NoteDownWindow.h">
+      <Filter>Header Files\Notepad</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeItem.h">
+      <Filter>Form Files\Notepad\BigData</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManage.h">
+      <Filter>Form Files\Notepad\BigData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HeroTool.rc">
+      <Filter>Qml\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="TopBar.ui">
+      <Filter>Form Files\Frame</Filter>
+    </QtUic>
+    <QtUic Include="HeroTool.ui">
+      <Filter>Form Files\Frame</Filter>
+    </QtUic>
+    <QtUic Include="Plan.ui">
+      <Filter>Form Files\Plan</Filter>
+    </QtUic>
+    <QtUic Include="NotePad.ui">
+      <Filter>Form Files\Notepad</Filter>
+    </QtUic>
+    <QtUic Include="BigData.ui">
+      <Filter>Form Files\BigData</Filter>
+    </QtUic>
+    <QtUic Include="MediaHome.ui">
+      <Filter>Form Files\Media</Filter>
+    </QtUic>
+    <QtUic Include="MediaToolWidget.ui">
+      <Filter>Form Files\Media</Filter>
+    </QtUic>
+    <QtUic Include="DrawToolWidget.ui">
+      <Filter>Form Files\Draw</Filter>
+    </QtUic>
+    <QtUic Include="TabToolStackWidget.ui">
+      <Filter>Form Files\Frame</Filter>
+    </QtUic>
+    <QtUic Include="NoteToolWidget.ui">
+      <Filter>Form Files\Notepad</Filter>
+    </QtUic>
+    <QtUic Include="DrawView.ui">
+      <Filter>Form Files\Draw</Filter>
+    </QtUic>
+    <QtUic Include="BigDataToolWidget.ui">
+      <Filter>Form Files\BigData</Filter>
+    </QtUic>
+    <QtUic Include="PlanToolWidget.ui">
+      <Filter>Form Files\Plan</Filter>
+    </QtUic>
+    <QtUic Include="BigDataToolWidget.ui">
+      <Filter>Form Files\BigData</Filter>
+    </QtUic>
+    <QtUic Include="NoteDownWindow.ui">
+      <Filter>Form Files\Notepad</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Qml\MediaHome.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="Qml\bigData.qml">
+      <Filter>Qml</Filter>
+    </None>
+    <None Include="sources\bigdata\mapDemo.html">
+      <Filter>html</Filter>
+    </None>
+  </ItemGroup>
+</Project>

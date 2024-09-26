@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TopBarClass</class>
+ <widget class="QWidget" name="TopBarClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>534</width>
+    <height>77</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TopBar</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="lbIcon">
+         <property name="minimumSize">
+          <size>
+           <width>25</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>25</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:#000000;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lbPath">
+         <property name="styleSheet">
+          <string notr="true">border-style: outset;
+color: #009600;
+min-width:2em;
+font-family:楷体;</string>
+         </property>
+         <property name="text">
+          <string>智能工具集合【sodiasome】</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="spacing">
+          <number>1</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="btnSmall">
+           <property name="minimumSize">
+            <size>
+             <width>23</width>
+             <height>23</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>23</width>
+             <height>23</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnMax">
+           <property name="minimumSize">
+            <size>
+             <width>23</width>
+             <height>23</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>23</width>
+             <height>23</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnClose">
+           <property name="minimumSize">
+            <size>
+             <width>23</width>
+             <height>23</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>23</width>
+             <height>23</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QPushButton" name="btnFile">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:0;
+width:80px;
+font-size: 16px;</string>
+         </property>
+         <property name="text">
+          <string>文件</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnEdit">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:0;
+width:80px;
+font-size: 16px;</string>
+         </property>
+         <property name="text">
+          <string>编辑</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnView">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:0;
+width:80px;
+font-size: 16px;</string>
+         </property>
+         <property name="text">
+          <string>视图</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnTool">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:0;
+width:80px;
+font-size: 16px;</string>
+         </property>
+         <property name="text">
+          <string>工具</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="btnNote">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton
+{
+	background-color:#009600;
+	border-style: outset;
+	border-width:2px;
+	border-radius:5px; 
+	border-color: #8B7355;
+	font: bold 14px;
+	min-width:2em;
+	color:white;
+	font-family:华文新魏;
+	padding:2px;
+}
+  QToolButton:hover
+{
+	background-color: #DCE2F1;
+	color:#8B7355;
+}
+QToolButton:pressed
+{
+	background-color: #DCE2F1;
+	border-style: inset;
+	color:#8B7355;
+}
+QToolButton:!enabled{
+	background-color: rgb(100, 100, 100);
+	border-style: inset;
+}</string>
+         </property>
+         <property name="text">
+          <string>笔记</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="btnDraw">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton
+{
+	background-color:#009600;
+	border-style: outset;
+	border-width:2px;
+	border-radius:5px; 
+	border-color: #8B7355;
+	font: bold 14px;
+	min-width:2em;
+	color:white;
+	font-family:华文新魏;
+	padding:2px;
+}
+  QToolButton:hover
+{
+	background-color: #DCE2F1;
+	color:#8B7355;
+}
+QToolButton:pressed
+{
+	background-color: #DCE2F1;
+	border-style: inset;
+	color:#8B7355;
+}
+QToolButton:!enabled{
+	background-color: rgb(100, 100, 100);
+	border-style: inset;
+}</string>
+         </property>
+         <property name="text">
+          <string>绘图</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="btnPlan">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton
+{
+	background-color:#009600;
+	border-style: outset;
+	border-width:2px;
+	border-radius:5px; 
+	border-color: #8B7355;
+	font: bold 14px;
+	min-width:2em;
+	color:white;
+	font-family:华文新魏;
+	padding:2px;
+}
+  QToolButton:hover
+{
+	background-color: #DCE2F1;
+	color:#8B7355;
+}
+QToolButton:pressed
+{
+	background-color: #DCE2F1;
+	border-style: inset;
+	color:#8B7355;
+}
+QToolButton:!enabled{
+	background-color: rgb(100, 100, 100);
+	border-style: inset;
+}</string>
+         </property>
+         <property name="text">
+          <string>计划</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="btnBigData">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton
+{
+	background-color:#009600;
+	border-style: outset;
+	border-width:2px;
+	border-radius:5px; 
+	border-color: #8B7355;
+	font: bold 14px;
+	min-width:2em;
+	color:white;
+	font-family:华文新魏;
+	padding:2px;
+}
+  QToolButton:hover
+{
+	background-color: #DCE2F1;
+	color:#8B7355;
+}
+QToolButton:pressed
+{
+	background-color: #DCE2F1;
+	border-style: inset;
+	color:#8B7355;
+}
+QToolButton:!enabled{
+	background-color: rgb(100, 100, 100);
+	border-style: inset;
+}</string>
+         </property>
+         <property name="text">
+          <string>数据</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="btnMedia">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton
+{
+	background-color:#009600;
+	border-style: outset;
+	border-width:2px;
+	border-radius:5px; 
+	border-color: #8B7355;
+	font: bold 14px;
+	min-width:2em;
+	color:white;
+	font-family:华文新魏;
+	padding:2px;
+}
+  QToolButton:hover
+{
+	background-color: #DCE2F1;
+	color:#8B7355;
+}
+QToolButton:pressed
+{
+	background-color: #DCE2F1;
+	border-style: inset;
+	color:#8B7355;
+}
+QToolButton:!enabled{
+	background-color: rgb(100, 100, 100);
+	border-style: inset;
+}</string>
+         </property>
+         <property name="text">
+          <string>媒体</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QToolButton" name="btnMedia_2">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QToolButton
+{
+	background-color:#009600;
+	border-style: outset;
+	border-width:2px;
+	border-radius:5px; 
+	border-color: #8B7355;
+	font: bold 14px;
+	min-width:2em;
+	color:white;
+	font-family:华文新魏;
+	padding:2px;
+}
+  QToolButton:hover
+{
+	background-color: #DCE2F1;
+	color:#8B7355;
+}
+QToolButton:pressed
+{
+	background-color: #DCE2F1;
+	border-style: inset;
+	color:#8B7355;
+}
+QToolButton:!enabled{
+	background-color: rgb(100, 100, 100);
+	border-style: inset;
+}</string>
+         </property>
+         <property name="text">
+          <string>人文</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>58</width>
+           <height>17</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
